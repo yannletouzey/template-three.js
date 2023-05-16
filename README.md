@@ -1,1 +1,3 @@
-# template Parcel
+# template THREE.JS
+
+npm i
