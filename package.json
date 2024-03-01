@@ -1,21 +1,17 @@
 {
-  "name": "three.js-template",
-  "version": "1.0.0",
-  "description": "",
-  "source": "src/index.html",
+  "name": "threejs-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "clear": "rm -rf dist && rm -rf .parcel-cache"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
-    "parcel": "^2.8.3"
+    "vite": "^5.1.4"
   },
   "dependencies": {
-    "three": "^0.152.2"
+    "three": "^0.162.0"
   }
 }
