@@ -10,6 +10,8 @@ class Camera extends PerspectiveCamera {
     this.updateProjectionMatrix();
     this.lookAt(0, 0, 0);
     this.position.z = 30;
+    this.position.y = 8;
+    this.position.x = -10;
   }
 }
 export default Camera;
